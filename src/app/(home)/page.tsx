@@ -1,8 +1,11 @@
+import { HeroHome } from "../components/HeroHome";
+
 export default function Home(){
     return(
         <>
-        <div>
-            <h1 className=" text-4xl">HOME</h1>
+        <div className="p-0 m-0">
+            
+            <HeroHome></HeroHome>
         </div>
         </>
     );
